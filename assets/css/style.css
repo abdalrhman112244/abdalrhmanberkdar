@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(63, 64, 69);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    margin: 20px 0px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+    padding: 0px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav h1{
+    color: rgb(171, 166, 134);
+}
+nav p{
+    background-color: rgb(47, 47, 49);
+    border: rgb(62, 61, 66) solid 2px;
+    color: white;
+    padding:10px 30px;
+    border-radius: 10px;
+}
+.bero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    color: rgb(171, 166, 134);
+}
+/* end nav */
+#img-p{
+    display: flex;
+
+}
+img{
+    width: 870px;
+    background-size: cover;
+    padding: 0px 50px;
+    margin: 0px 10px;
+
+}
+#img-p div{
+    width: 295px;
+}
+#img-p div h2{
+    color:rgb(171, 166, 134);;
+    margin: 20px 0px ;
+}
+#img-p div p{
+    color: white;
+}
+button{
+    margin: 20px 0px;
+    
+}
+.button1{
+    background-color: rgb(224, 210, 161);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 10px;
+}
+.button2{
+    border: 1px solid rgb(224, 210, 161);
+    background: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.mony{
+    width: 290px;
+    border: 2px solid rgb(82, 74, 87);
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    margin: 0 10px;
+    padding: 10px 0;
+    font-size: 10px;
+}
+span{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    display: block;
+    margin: 5px 0px;
+}
